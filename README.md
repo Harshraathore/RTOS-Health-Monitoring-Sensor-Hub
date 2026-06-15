@@ -1,23 +1,20 @@
-# RTOS Health Monitoring Sensor Hub
-
-A FreeRTOS-based health monitoring system designed using STM32 firmware architecture.
+# RTOS Health Monitoring System
 
 ## Features
+- FreeRTOS based multitasking
+- Sensor Task
+- Display Task
+- Alert Task
+- CMSIS-RTOS V2
+- STM32F446RE
 
-* Multitasking using FreeRTOS
-* Sensor Data Acquisition
-* Queue-based Communication
-* UART Data Transmission
-* Display Task Management
-* Modular Firmware Design
+## Planned Hardware
+- MAX30102
+- MPU6050
+- SSD1306 OLED
+- Buzzer
 
-## Technologies
-
-* Embedded C
-* FreeRTOS
-* STM32CubeIDE
-* GitHub
-
-## Status
-
-Project Initialization Phase
+## Software
+- STM32CubeIDE
+- STM32CubeMX
+- FreeRTOS
